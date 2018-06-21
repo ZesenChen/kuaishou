@@ -15,3 +15,5 @@ TEST_REGISTER_DAT = range(1,31)
 TEST_ACT_DAT = range(15,31)
 
 WEIGHT = np.array([i for i in range(len(TEST_ACT_DAT))])
+
+THRESHOLD = 23800
